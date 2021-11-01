@@ -4,5 +4,10 @@ this is not a real repo, only using it to get the I<wiki> tab.
 
 =head1 USAGE
 
+To edit, do the C<git> thing:
+
     git clone https://github.com/Perl-OpenMP/wiki.wiki.git
 
+To view, visit,
+
+    L<https://github.com/Perl-OpenMP/wiki/wiki>
