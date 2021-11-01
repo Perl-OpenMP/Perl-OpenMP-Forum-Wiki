@@ -8,8 +8,8 @@ To edit, do the C<git> thing:
 
     git clone https://github.com/Perl-OpenMP/wiki.wiki.git
 
-To view, visit,
+To view,
 
-Press C<Wiki> tab above or, in your browser,
+Press C<Wiki> tab above or, click:
 
 https://github.com/Perl-OpenMP/wiki/wiki
