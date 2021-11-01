@@ -1,4 +1,4 @@
-=head1 USE WIKI ONLY
+=head1 USE WIKI LINK ONLY
 
 this is not a real repo, only using it to get the I<wiki> tab.
 
@@ -13,3 +13,7 @@ To view,
 Press C<Wiki> tab above or, click:
 
 https://github.com/Perl-OpenMP/wiki/wiki
+
+=head1 CONTRIBUTORS
+
+Yes, please.
