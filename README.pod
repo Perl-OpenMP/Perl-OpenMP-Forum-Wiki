@@ -10,4 +10,6 @@ To edit, do the C<git> thing:
 
 To view, visit,
 
-    L<https://github.com/Perl-OpenMP/wiki/wiki>
+Press C<Wiki> tab above or, in your browser,
+
+https://github.com/Perl-OpenMP/wiki/wiki
