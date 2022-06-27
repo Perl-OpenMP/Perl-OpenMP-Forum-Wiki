@@ -1,1 +1,1 @@
-This is not the wiki. [https://github.com/Perl-OpenMP/Perl-OpenMP-Forum-Wiki/wiki](this) is. See you there.
+This is not the wiki. See, https://github.com/Perl-OpenMP/Perl-OpenMP-Forum-Wiki/wiki.
