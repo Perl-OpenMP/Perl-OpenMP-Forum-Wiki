@@ -1,0 +1,47 @@
+=head1 INTRODUCTION
+
+Creating keywords that expose Perl programmers to threaded
+capabililites is an excellent place to spend some time. It
+allows everyone to imagine how it might be used in a traditional
+Perl script. It also forces us to think about how the variables
+will be affected.
+
+=head1 ASSUMPTIONS
+
+We must start with 2 assumptions:
+
+=over 4
+
+=item the C<perl> process is sequention; full stop.
+
+=item Perl data structures are NOT entirely NOT thread safe.
+
+=back
+
+=head2 C<perl> is a sequential process
+
+It is. Not much else to say.
+
+=head2 Perl Data Structures are NOT entirely NOT thread safe
+
+This is true, but in a sneaky way. All memory can be read by multiprocesses
+without doing so unsafely. If a memory location has a value that is guaranteed
+to not change, then it can be RO and considered safe.
+
+So, fundamentally, I<ANY> Perl data structure can be passed to a keyword, that
+is implemented using C<Inline::C> and C<OpenMP>. That's not nothing.
+
+We know it is possible to call Perl code from inside of a C function that is
+compiled and linked by C<Inline::C>. If it is fundamentally possible for Perl
+subroutines to be called in parallel; and even if the method by which the Perl
+API is called requires sequential access to the interpreter process's memory
+stack(?); this serialize can be managed safely by the server means by which
+OpenMP provides (e.g., C<#pragam omp critical>, C<#pragma omp ordered>, etc).
+
+=head1 CHALLENGES AND OPEN QUESTIONS
+
+We shall manage the exploration by maintaining a series of challenges, generated
+through the consideration of open questions. This list of Open Questions will
+be maintained in a separate document.
+
+
