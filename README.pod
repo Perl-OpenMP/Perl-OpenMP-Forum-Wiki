@@ -8,7 +8,8 @@ within Perl.
 
 =over 4
 
-=item Explore approaches to exposing OpenMP in C<Tie::*> interfaces for basic Perl structures (SCALAR, HASH, ARRAY)
+=item Explore approaches to exposing OpenMP in C<Tie::*> interfaces for basic
+Perlstructures (SCALAR, HASH, ARRAY)
 
 =item Useful keyword implementations that do stuff using OpenMP
 
@@ -20,14 +21,20 @@ within Perl.
 
 =over 4
 
+=item Experimental C<Tie::OpenMP> interfaces
+
+L<https://github.com/Perl-OpenMP/p5-Tie-OpenMP-Experimental>
+
+=item Paralleized keywords
+
+There is no repo yet for this, but the idea is to experiment with constructs
+that I<look> like keywords. These are typically provided via I<prototypes>.
+
 =item Pure fiction, nothing else:
 
 L<https://github.com/oodler577/p5-fan-fiction>
 
-Literally just exploring how to write threaded code. It probably doesn't make sense and it probably doesn't compile.
-
-=item Experimental C<Tie::OpenMP> interfaces
-
-L<https://github.com/Perl-OpenMP/p5-Tie-OpenMP-Experimental>
+Literally just exploring how to write threaded code. It probably doesn't make
+sense and it probably doesn't compile. But it can be fun to write and read.
 
 =back
