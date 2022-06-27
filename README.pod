@@ -24,4 +24,6 @@ within Perl.
 
 Literally just exploring how to write threaded code. It probably doesn't make sense and it probably doesn't compile.
 
-=item 
+=item Experimental C<Tie::OpenMP> interfaces
+
+=back
